@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BSIT-3A</string>
+    <string name="subjects">SUBJECTS</string>
+    <string name="grades">GRADES</string>
+    <string name="evaluation">EVALUATION</string>
+    <string name="view_grades">VIEW GRADES</string>
+    <string name="view_subjects">VIEW SUBJECTS</string>
+    <string name="view_evaluation">VIEW EVALUATION</string>
+    <string name="subjects_are_not_available">Subjects are not available</string>
+    <string name="evaluation_is_not_available">Evaluation is not available</string>
+    <string name="grades_are_not_available">Grades are not available</string>
+    <string name="select_school_year">Select School Year</string>
+    <string name="spinnerschoolyear">spinnerSchoolYear</string>
+    <string name="spinnerschoolyears" />
+    <string name="_2019">2019</string>
+    <string name="dash">-</string>
+    <string name="_2020">2020</string>
+    <string name="_1st_semester">1st Semester</string>
+    <string name="update">UPDATE</string>
+</resources>

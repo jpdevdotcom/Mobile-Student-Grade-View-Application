@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#810938"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/grades_button"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:background="#7C5583"
+        android:backgroundTint="#DA3A70"
+        android:text="@string/grades"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/subjects_button"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:background="#9C27B0"
+        android:backgroundTint="#03A9F4"
+        android:text="@string/subjects"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/evaluation_button"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        android:background="#9C27B0"
+        android:backgroundTint="#03A9F4"
+        android:text="@string/evaluation"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_update"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:background="#9C27B0"
+        android:backgroundTint="#03A9F4"
+        android:text="@string/update"
+        android:textSize="20sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="440dp" />
+
+
+</RelativeLayout>

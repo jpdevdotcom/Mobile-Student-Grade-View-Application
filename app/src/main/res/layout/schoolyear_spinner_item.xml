@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <LinearLayout
+      android:id="@+id/linearlayout"
+      android:layout_width="500dp"
+      android:layout_height="25dp"
+      android:orientation="horizontal"
+      tools:ignore="UselessParent">
+
+
+      <TextView
+          android:id="@+id/txtSchoolYearStart"
+          android:layout_width="wrap_content"
+          android:layout_height="26dp"
+          android:fontFamily="sans-serif-black"
+          android:text="@string/_2019"
+          tools:ignore="TextSizeCheck,VisualLintBounds"></TextView>
+
+      <TextView
+          android:id="@+id/txtDash"
+          android:layout_width="wrap_content"
+          android:layout_height="26dp"
+          android:paddingLeft="1dp"
+          android:text="@string/dash"
+          tools:ignore="TextSizeCheck,VisualLintBounds">
+      </TextView>
+
+      <TextView
+          android:id="@+id/txtSchoolYearEnd"
+          android:layout_width="wrap_content"
+          android:layout_height="26dp"
+          android:fontFamily="sans-serif-black"
+          android:text="@string/_2020"
+          tools:ignore="TextSizeCheck,VisualLintBounds"></TextView>
+
+  </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtSchoolYearSemester"
+        android:layout_width="200dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/_1st_semester"
+        android:textColor="#716E71"
+        tools:ignore="TextSizeCheck,VisualLintBounds"></TextView>
+
+</RelativeLayout>
